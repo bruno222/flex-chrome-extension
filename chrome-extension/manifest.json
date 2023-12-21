@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Twilio Flex",
+  "version": "1.0",
+  "description": "Twilio Flex is the Contact Center of Twilio, and this Chrome Extension is an example on how to integrate it with any of your CRMs and pages.",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },  
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "permissions": ["sidePanel"]  
+}
