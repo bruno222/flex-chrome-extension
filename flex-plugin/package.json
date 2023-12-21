@@ -1,9 +1,10 @@
 {
-  "name": "flex-plugin",
+  "name": "flex-chrome-extension",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "postinstall": "flex-plugin pre-script-check"
+    "postinstall": "flex-plugin pre-script-check",
+    "start": "twilio flex:plugins:start"
   },
   "dependencies": {
     "@twilio/flex-plugin-scripts": "6.2.3",
