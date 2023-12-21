@@ -1,5 +1,5 @@
 import * as FlexPlugin from '@twilio/flex-plugin';
 
-import FlexPlugin from './FlexPlugin';
+import FlexPluginChromeExtension from './FlexPlugin';
 
-FlexPlugin.loadPlugin(FlexPlugin);
+FlexPlugin.loadPlugin(FlexPluginChromeExtension);

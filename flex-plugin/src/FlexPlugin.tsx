@@ -6,7 +6,7 @@ import CustomTaskList from './components/CustomTaskList/CustomTaskList';
 
 const PLUGIN_NAME = 'FlexPlugin';
 
-export default class FlexPlugin extends FlexPlugin {
+export default class FlexPluginChromeExtension extends FlexPlugin {
   constructor() {
     super(PLUGIN_NAME);
   }
